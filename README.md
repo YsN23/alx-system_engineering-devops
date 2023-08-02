@@ -1,2 +1,2 @@
-# alx-system_engineering-devops
-I'm now a ALX Student, this is my second repository as a full-stack engineer.
+This repo is my second repo as a student in alx.
+and here I will complete the tasks about "Shell Basics".
