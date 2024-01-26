@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 #Listing Processes
 
-ps aux
+ps aux --forest --sort=user
+
