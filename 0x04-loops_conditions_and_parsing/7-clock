@@ -1,1 +1,22 @@
 #!/usr/bin/env bash
+#The Clock
+
+
+hours=0
+max_hours=12
+
+while [ "$hours" -le "$max_hours" ];
+do
+    echo "Hour: $hours"
+
+    minutes=1
+
+    while [ "$minutes" -le 59 ];
+    do
+        echo "$minutes"
+
+        ((minutes++))
+    done
+
+    ((hours++))
+done
