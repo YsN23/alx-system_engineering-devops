@@ -1,1 +1,12 @@
 #!/usr/bin/env bash
+#for loop with ls, and slicing
+
+
+for file in *;
+do
+    file=${file##*-}
+
+    echo "$file"
+
+    ((file++))
+done
