@@ -1,1 +1,5 @@
 #!/usr/bin/env bash
+#Printing and Sorting
+
+
+ps aux | grep bash | sort -nk 2
