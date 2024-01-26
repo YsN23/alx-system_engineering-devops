@@ -7,11 +7,11 @@ while [ "$i" -le 20 ];
 do
     case $i in
         4)
-            echo "bad luck from China";;
+            echo -e "4\nbad luck from China";;
         9)
-            echo "bad luck from Japan";;
+            echo -e "9\nbad luck from Japan";;
         17)
-            echo "bad luck from Italy";;
+            echo -e "17\nbad luck from Italy";;
         *)
             echo "$i";;
     esac
