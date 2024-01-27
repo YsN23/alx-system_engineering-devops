@@ -2,4 +2,4 @@
 #KILL Cmd
 
 
-kill 195
+kill -SIGTERM 195
