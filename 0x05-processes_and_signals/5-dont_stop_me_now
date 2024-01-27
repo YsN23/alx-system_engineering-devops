@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 #KILL Cmd
 
-
-kill -SIGTERM 195
+pid_proc=$(pgrep -a "bash" | grep "4-to_infinity" | cut -d " " -f1)
+if [ -n "$pid_proc" ];
+then
+	kill "$pid_proc"
+fi
