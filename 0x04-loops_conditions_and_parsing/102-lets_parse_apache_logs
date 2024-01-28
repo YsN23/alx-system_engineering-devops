@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#awk command programming language is amazing
+
+
+awk '{print $1,$9}' apache-access.log
+
