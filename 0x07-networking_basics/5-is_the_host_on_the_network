@@ -1,1 +1,6 @@
 #!/usr/bin/env bash
+#ping cmd with bash positional args
+
+
+
+ping $1
