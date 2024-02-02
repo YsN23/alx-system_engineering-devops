@@ -1,1 +1,7 @@
 #!/usr/bin/env bash
+#ip coommand
+
+
+active_ipsv4=$(ip -4 address | grep -oP '(?<=inet\s)\d+(\.\d+){3}')
+
+echo "$active_ipsv4"
