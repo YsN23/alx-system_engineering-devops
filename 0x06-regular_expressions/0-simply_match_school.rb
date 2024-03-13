@@ -6,4 +6,8 @@ pattern = /School/
 
 match = input.match(pattern)
 
-puts match[0] if match
+if match
+    puts match[0]
+else
+    puts "\n"
+end
